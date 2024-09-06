@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: $ff-unbounded;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  color: $color-black-2;
+  background-color: $color-bg;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  background: #2B2829;
+  color: $color-white;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  border: none;
+  cursor: pointer;
+  transition: all $transition-300;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
